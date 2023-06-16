@@ -1,0 +1,57 @@
+<div class="alert logging" style="margin-top:10%;">
+  <nav>
+    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-login-tab" data-toggle="tab" data-target="#nav-login" type="button" role="tab" aria-controls="nav-login" aria-selected="true"><i class="fas fa-sign-in-alt"></i> Log In Account</button>
+      <button class="nav-link" id="nav-session-tab" data-toggle="tab" data-target="#nav-session" type="button" role="tab" aria-controls="nav-session" aria-selected="false"><i class="fas fa-cookie-bite"></i> Load Session</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active p-5" id="nav-login" role="tabpanel" aria-labelledby="nav-login-tab">
+      <div class="card mx-auto" style="width: 35rem;">
+        <div class="card-header h3">LOGIN ACCOUNT IG</div>
+        <div class="card-body">
+            <div class="input-group mb-3 first">
+              <span class="input-group-text" id="ed">
+                <i class="fa-solid fa-user"></i>
+              </span>
+              <input type="text" class="form-control pengguna" placeholder="Username" aria-describedby="ed">
+            </div>
+            <div class="input-group mb-3 second">
+              <span class="input-group-text" id="dd">
+                <i class="fas fa-lock"></i>
+              </span>
+              <input type="text" class="form-control sandi" placeholder="Sandi" aria-describedby="dd">
+            </div>
+            <div class="input-group mb-3 third">
+              <span class="input-group-text" id="as">
+                <i class="fas fa-lock"></i>
+              </span>
+              <input type="text" class="form-control code_email" placeholder="Dele kene Codemu" aria-describedby="as">
+            </div>
+            <button type="button" class="btn btn-md inbtn mbaros">
+              <i class="fas fa-sign-in-alt"></i> MASUK
+            </button>
+        </div>
+        <div class="card-footer warning_error text-uppercase">
+          CONSOLE WARNING
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade p-5" id="nav-session" role="tabpanel" aria-labelledby="nav-session-tab">
+      <div class="card mx-auto" style="width: 35rem;">
+        <div class="card-header h3">LOAD SESSION IG</div>
+        <div class="card-body">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="ed">
+                <i class="fas fa-cookie-bite"></i>
+              </span>
+              <textarea class="form-control sessiondata" cols="5" rows="5" placeholder="Paste Session"></textarea>
+            </div>
+            <button type="button" class="btn btn-md inbtn load_session">
+              <i class="fas fa-cookie-bite"></i> LOAD
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
