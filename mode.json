@@ -1,6 +1,6 @@
 {
-    "auth" : "https://rawcdn.githack.com/pamanbobb/serialize/58e75a79823f971854b5d3d81546b8bd403383cd/auth.html",
-    "login" : "https://rawcdn.githack.com/pamanbobb/serialize/58e75a79823f971854b5d3d81546b8bd403383cd/login.html",
-    "asset" : "https://rawcdn.githack.com/pamanbobb/serialize/03055becd28fa21f9f915ea3f782fa4c66ee8470/asset.html",
-    "npm" : "https://rawcdn.githack.com/pamanbobb/serialize/af3ecdba0220ac51a0468257b08f3f182dc2f74e/npm.min.js"
+    "auth" : "",
+    "login" : "",
+    "asset" : "",
+    "npm" : ""
 }
